@@ -12,7 +12,6 @@ import "@openzeppelin/contracts/utils/math/SafeMath.sol";
 contract MetanToken is ERC20Capped, ERC20Burnable, Ownable {
 
     using SafeMath for uint256;
-    mapping(address=>bool) lpAddresses;
     uint256 maxSupply = 10**26;
     
     constructor()
