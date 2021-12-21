@@ -5,7 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract MetanToken is ERC20 {
 
-    constructor() ERC20("Metan Evolutions", "METAN") {
+    constructor() ERC20("Metan Chain", "METAN") {
         _mint(msg.sender,  1e26);
     }
 }
